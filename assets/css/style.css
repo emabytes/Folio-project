@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Athene';
+    src: url('../fonts/AtheneFF/Athene.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf') format("truetype");
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(40, 43, 41, 0.6);
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-y: overlay;
+}
+
+header {
+    background: #efe8d7;
+    border-bottom: 1px solid #002a5a;
+    height: 45px;
+    font-weight: 300;
+    position: fixed;
+    top: 0;
+    width: 101%;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+header ul li {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #002a5a;
+}
+
+header ul li:nth-of-type(2) {
+    padding-right: 5%;
+    padding-left: 65%;
+}
+
+section:first-of-type {
+    background: #efe8d7;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #002a5a;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Athene', serif;
+}
+
+section:first-of-type h1 {
+    padding-top: 100px;
+    border-bottom: 1px solid #002a5a;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 9em;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.line {
+    display: inline-block;
+    background-color: #002a5a;
+    height: 2px;
+    width: 160px;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+section:first-of-type div {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+section:first-of-type div p {
+    padding-top: 20px;
+    padding-right: 140px;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+
+section:first-of-type p span {
+    font-family: 'Athene', serif;
+}
+
+section:nth-of-type(2) {
+    padding-right: 5%;
+    background: #F4C4C4;
+    color: #282b29;
+}
+
+section h6 {
+    font-size: 0.8em;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+section:nth-of-type(2n) h6 {
+    padding-left: 8%;
+}
+
+section:nth-of-type(2) h1, section:nth-of-type(3) h1, section:nth-of-type(4) h1 {
+    font-size: 9em;
+    font-weight: 100;
+}
+
+h1 span {
+    display: block;
+}
+
+section:nth-of-type(2) p {
+    line-height: 2;
+    font-size: 1.2em;
+    font-weight: 300;
+    width: 550px;
+    padding-left: 59%;
+    padding-bottom: 60px;
+}
+
+table {
+    width: 650px;
+    margin-left: 52%;
+    font-size: 0.7em;
+    border-top: 1px solid #282b29;
+}
+
+caption {
+    text-align: right;
+    font-size: 1.5em;
+}
+
+table td {
+    border-bottom: 1px solid #282b29;
+    padding: 20px 0;
+}
+
+tr td:first-child {
+    width: 35px;
+}
+
+tr td:nth-child(2) {
+    font-size: 1.6em;
+}
+
+tr td:nth-child(3) {
+    width: 50px;
+    text-align: right;
+}
+
+section:nth-of-type(2) div {
+    height: 300px;
+    background: url(../img/letswork.svg) right no-repeat;
+    background-size: 150px;
+}
+
+section:nth-of-type(3) {
+    background: #DEB873;
+    color: #7d2222;
+    padding-left: 5%;
+    padding-bottom: 200px;
+}
+
+section:nth-of-type(3) h6 {
+    padding-left: 90%;
+}
+
+section:nth-of-type(3) h1 {
+    text-align: right;
+}
+
+section:nth-of-type(3) p {
+    line-height: 2;
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 580px;
+    padding-bottom: 200px;
+}
+
+h2 {
+    font-family: 'Athene', serif;
+    font-weight: 100;
+    font-size: 4em;
+    height: 450px;
+}
+
+h2 span {
+    display: block;
+}
+
+h2:nth-of-type(1) {
+    background: url(../img/bg-marconatto-1.jpg) right no-repeat;
+    background-size: 63%;
+    margin-right: 5%;
+    margin-bottom: 200px;
+}
+
+h2:nth-of-type(2) {
+    background: url(../img/kathe_cover-1.jpg) left no-repeat;
+    background-size: 63%;
+    text-align: right;
+    margin-bottom: 200px;
+    padding-right: 5%;
+}
+
+h2:nth-of-type(3) {
+    background: url(../img/bg-nicole-1.jpg) right no-repeat;
+    background-size: 63%;
+    margin-right: 5%;
+    margin-bottom: 200px;
+}
+
+h2:nth-of-type(4) {
+    background: url(../img/boa_cover-1.jpg) left no-repeat;
+    background-size: 63%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+section:nth-of-type(4) {
+    background: #D2D2D2;
+    color: #1d8883;
+}
+
+section:nth-of-type(4) p {
+    line-height: 2;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-left: 35%;
+    padding-right: 5%;
+    padding-bottom: 80px;
+}
+
+section:nth-of-type(4) p span {
+    display: block;
+}
+
+ul {
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 50px;
+}
+
+section ul li a {
+    display: inline-block;
+    line-height: 2;
+    text-decoration: none;
+    color: #1d8883;
+    font-weight: 300;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+header a:hover, section a:hover {
+    border-bottom: 1px solid;
+}
